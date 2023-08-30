@@ -1,13 +1,12 @@
-# mptcpl4spcq
-## CloudLab Experiment
-### 0.1. Creating MPTCP Kernel Image on CloudLab
-      Prerequisites:
-        Create a CloudLab Account.
+# mptcpl4spcq CloudLab Experiment
+      Prequisite: Creating a CloudLab Account.
+## 1. Creating MPTCP Kernel Image on CloudLab
+### 1.1 Creating a basic profile and instantiating it
    1. Log in to your CloudLab account.
    2. Navigate to Experiments > Create Experiment Profile.
    3. Create a name for the profile such as "mptcpsixonekernel".
-   4. Click on Edit Code and copy and paste the following code into the Source pop up window:
-      ```python
+   4. Click on Edit Code and copy and paste the following code into the "Source" pop-up window:
+```python
 """An example of constructing a profile with a single raw PC.
 
 Instructions:
@@ -28,3 +27,16 @@ node = request.RawPC("node")
 # Print the RSpec to the enclosing page.
 portal.context.printRequestRSpec()
 ```
+   5. Click Accept then click Create.
+      You will be redirected to the profile page.
+   6. Click on Instantiate.
+   7. Give the experiment a name such as "sixonekernel".
+   8. Select CloudLab Wisconsin.
+   9. Click Next then click Finish.
+      Once the node is ready, move on to the section 1.2 "Installing MPTCP 6.1.49".
+
+            NOTE: At the time of this experiment:
+            the latest LTS Ubuntu version is 22.04.2
+            the latest LTS Linux kernel release is 6.1.49
+
+### 1.2 Installing MPTCP 6.1.49
