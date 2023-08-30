@@ -52,5 +52,12 @@ A new tab is opened titled 'node' with a browser-based shell interface.
 sudo apt update
 sudo apt install build-essential gcc make bison flex libssl-dev libncurses5-dev bc
 ```
-   6. 
+   6. Install the full sources from the repo [http://kernel.org/](http://kernel.org/)
+   > longterm: 	6.1.49 	2023-08-27 	[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.49.tar.xz)
    7. 
+   8. Place the kernel tarball in the home directory and unpack it:
+```bash
+xz -cd mptcp_v6.1.49.tar.xz | tar xvf -
+```
+   7. 
+   8. 
