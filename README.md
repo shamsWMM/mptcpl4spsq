@@ -58,7 +58,7 @@ A new tab is opened titled 'node' with a browser-based shell interface.
    ```bash
    xz -cd linux-6.1.49.tar.xz | tar xvf -
    ```
-   8. Access the linux-6.1.49 directory and ensure the kernel source directory is clean
+   8. Access the linux-6.1.49 directory and ensure the kernel source directory is clean:
 > This instruction is part of the README file on [https://github.com/multipath-tcp/mptcp_net-next/tree/export/Documentation/admin-guide](https://github.com/multipath-tcp/mptcp_net-next/tree/export/Documentation/admin-guide#installing-the-kernel-source).
    ```bash
    cd linux-6.1.49
