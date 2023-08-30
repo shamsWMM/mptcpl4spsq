@@ -54,6 +54,9 @@ A new tab is opened titled 'node' with a browser-based shell interface.
    ```
    6. Install the full sources from the repo [http://kernel.org/](http://kernel.org/) on the user home directory.
    > longterm: 	6.1.49 	2023-08-27 	[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.49.tar.xz).
+```bash
+wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.49.tar.xz
+```
    7. Unpack the tarball:
    ```bash
    xz -cd linux-6.1.49.tar.xz | tar xvf -
