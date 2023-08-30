@@ -52,12 +52,18 @@ A new tab is opened titled 'node' with a browser-based shell interface.
 sudo apt update
 sudo apt install build-essential gcc make bison flex libssl-dev libncurses5-dev bc
 ```
-   6. Install the full sources from the repo [http://kernel.org/](http://kernel.org/)
+   6. Install the full sources from the repo [http://kernel.org/](http://kernel.org/) on the user home directory.
    > longterm: 	6.1.49 	2023-08-27 	[tarball](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.49.tar.xz)
    7. 
-   8. Place the kernel tarball in the home directory and unpack it:
+   8. Unpack the tarball:
 ```bash
-xz -cd mptcp_v6.1.49.tar.xz | tar xvf -
+xz -cd linux-6.1.49.tar.xz | tar xvf -
 ```
-   7. 
-   8. 
+   9. Enter the linux-6.1.49 directory and ensure the kernel source directory is clean
+> This instruction is part of the README file on [https://github.com/multipath-tcp/mptcp_net-next/tree/export/Documentation/admin-guide]([https://github.com/multipath-tcp/mptcp_net-next/tree/export/Documentation/admin-guide](https://github.com/multipath-tcp/mptcp_net-next/tree/export/Documentation/admin-guide#installing-the-kernel-source)https://github.com/multipath-tcp/mptcp_net-next/tree/export/Documentation/admin-guide#installing-the-kernel-source)
+```bash
+   cd linux
+   make mrproper
+```
+   10. 
+   11. 
