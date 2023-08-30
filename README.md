@@ -45,4 +45,12 @@ portal.context.printRequestRSpec()
    1. Navigate to the <a href='https://github.com/multipath-tcp/mptcp_net-next'> Linux Kernel Development GitHub repository for Multipath TCP</a> and as instructed on the repository's main README file, explore the Documentation/admin-guide/README.rst file.
    2. Explore the <a href='https://github.com/multipath-tcp/mptcp_net-next/blob/export/Documentation/process/changes.rst'>https://github.com/multipath-tcp/mptcp_net-next/blob/export/Documentation/process/changes.rst</a> to ensure you have the necessary requirements for the kernel installation.
    3. Following steps 1 and 2 above, start by navigating to the instantiated profile created in [section 1.1](#section-11-creating-a-basic-profile-and-instantiating-it).
-   4. 
+The Topology View tab contains the single node created in the previous section.
+   4. Click on the node to view a popup menu, and click Shell.
+A new tab is opened titled 'node' with a browser-based shell interface.
+   5. Start by updating the package lists on the system and installing the necessary packages and tools:
+```bash
+ls -lah
+```
+   6. 
+   7. 
