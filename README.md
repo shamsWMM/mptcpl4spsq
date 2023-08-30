@@ -35,8 +35,9 @@ portal.context.printRequestRSpec()
    9. Click Next then click Finish.
       Once the node is ready, move on to the section 1.2 "Installing MPTCP 6.1.49".
 
-            NOTE: At the time of this experiment:
-            the latest LTS Ubuntu version is 22.04.2
-            the latest LTS Linux kernel release is 6.1.49
+            NOTE: At the time of this experiment,
+                  the latest LTS Ubuntu version is 22.04.2, which is also the current default Ubuntu version
+                  installed on the RawPC node created above.
+                  the latest LTS Linux kernel release is 6.1.49, which we will need to install.
 
 ### 1.2 Installing MPTCP 6.1.49
