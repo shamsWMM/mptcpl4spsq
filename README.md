@@ -41,3 +41,5 @@ portal.context.printRequestRSpec()
                   the latest LTS Linux kernel release is 6.1.49, which we will need to install.
 
 ### 1.2 Installing MPTCP 6.1.49
+      Resources and Instructions found on https://github.com/multipath-tcp/mptcp_net-next
+   1. Navigate to the <a href='https://github.com/multipath-tcp/mptcp_net-next'> Linux Kernel Development GitHub repository for Multipath TCP</a>
