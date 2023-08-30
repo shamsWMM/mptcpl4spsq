@@ -1,7 +1,7 @@
 # mptcpl4spcq CloudLab Experiment
       Prequisite: Creating a CloudLab Account.
-## 1. Creating MPTCP Kernel Image on CloudLab
-### 1.1 Creating a basic profile and instantiating it
+## Part 1. Creating MPTCP Kernel Image on CloudLab
+### Section 1.1 Creating a basic profile and instantiating it
    1. Log in to your CloudLab account.
    2. Navigate to Experiments > Create Experiment Profile.
    3. Create a name for the profile such as "mptcpsixonekernel".
@@ -40,6 +40,9 @@ portal.context.printRequestRSpec()
                   installed on the RawPC node created above.
                   the latest LTS Linux kernel release is 6.1.49, which we will need to install.
 
-### 1.2 Installing MPTCP 6.1.49
+### Section 1.2 Installing MPTCP 6.1.49
       Resources and Instructions found on https://github.com/multipath-tcp/mptcp_net-next
-   1. Navigate to the <a href='https://github.com/multipath-tcp/mptcp_net-next'> Linux Kernel Development GitHub repository for Multipath TCP</a>
+   1. Navigate to the <a href='https://github.com/multipath-tcp/mptcp_net-next'> Linux Kernel Development GitHub repository for Multipath TCP</a> and as instructed on the repository's main README file, explore the Documentation/admin-guide/README.rst file.
+   2. Explore the <a href='https://github.com/multipath-tcp/mptcp_net-next/blob/export/Documentation/process/changes.rst'>https://github.com/multipath-tcp/mptcp_net-next/blob/export/Documentation/process/changes.rst</a> to ensure you have the necessary requirements for the kernel installation.
+   3. Following steps 1 and 2 above, start by navigating to the instantiated profile created in [section 1.1](#section-11-creating-a-basic-profile-and-instantiating-it).
+   4. 
