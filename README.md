@@ -7,7 +7,7 @@
    2. Navigate to Experiments > Create Experiment Profile.
    3. Create a name for the profile such as "mptcpsixonekernel".
    4. Click on Edit Code and copy and paste the following code into the Source pop up window:
-      ```python
+     ```python
       """An example of constructing a profile with a single raw PC.
       
       Instructions:
@@ -27,4 +27,7 @@
       
       # Print the RSpec to the enclosing page.
       portal.context.printRequestRSpec()
-      ```
+      ```  
+   5. Click Accept
+     
+
